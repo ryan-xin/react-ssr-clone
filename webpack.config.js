@@ -66,7 +66,7 @@ module.exports = {
 
     // resolve files configuration
     resolve: {
-        
+
         // file extensions
         extensions: [ '.js', '.jsx', '.scss' ],
     },
@@ -77,7 +77,7 @@ module.exports = {
             cacheGroups: {
                 default: false,
                 vendors: false,
-                
+
                 vendor: {
                     chunks: 'all', // both : consider sync + async chunks for evaluation
                     name: 'vendor', // name of chunk file
@@ -89,7 +89,7 @@ module.exports = {
 
     // development server configuration
     devServer: {
-        port: 8088,
+        port: 9999,
         historyApiFallback: true,
     },
 

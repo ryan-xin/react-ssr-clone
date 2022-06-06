@@ -1,2 +1,2 @@
 # react-ssr
-React server-side rendering sample project.
+React server-side rendering sample project
